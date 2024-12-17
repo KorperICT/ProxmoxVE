@@ -1,6 +1,9 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
 # Script to change Proxmox VMID with verbose logging and color output
 # Supports both VMs (QEMU) and Containers (LXC)
+# License: MIT
+# Author: Korper ICT
 
 LOG_FILE="/var/log/proxmox_vmid_change.log"
 
